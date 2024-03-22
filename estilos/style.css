@@ -24,3 +24,19 @@ header a{
 header a:hover{
     background-color: cadetblue;
 }
+
+div{
+    background-color: gray;
+    position:absolute;
+    width:100%;
+}
+
+div > img{
+    position:relative;
+    left:70%;
+    padding:10px;
+    height:200px;
+    width:200px;
+    border-radius: 50%;
+   
+}
