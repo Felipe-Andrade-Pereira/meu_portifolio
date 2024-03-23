@@ -20,7 +20,7 @@
 }
 
 body{
-    background-color: rgba(0, 0, 0, 0.712);
+    background-color: white;
 }
 
 header{
@@ -107,5 +107,44 @@ div#historia > h1,h2{
 div#historia > p{
     margin-top:25px;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
     
+}
+
+div#skills{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.925);
+    margin-top: 25px;
+}
+
+div#skills > img.logo{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    padding:10px;
+}
+
+div#portfolio{
+    background-color: rgba(0, 0, 0, 0.432);
+    margin-top:30px;
+    text-align: center;
+    padding: 25px;
+    
+    
+}
+
+div#portfolio > p{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    text-align: justify;
+    margin-left: 175px;
+    margin-right: 175px;
+    
+}
+
+div#portfolio > img.projetos{
+    
+    height: 400px;
+    width: 900px;
 }
