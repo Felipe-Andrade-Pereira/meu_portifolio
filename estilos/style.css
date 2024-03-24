@@ -20,17 +20,18 @@
 }
 
 body{
-    background-color: white;
-    
-    
+    background-color: rgb(49, 48, 48);
 }
 
 header{
     
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.801);
     color: white;
-    padding:35px;
-    margin-bottom: 20px;
+    padding:50px;
+    width:1000px;
+    margin:auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 header a{
@@ -51,10 +52,14 @@ header a:hover{
 
 div#inicio{
     background-color: rgba(0, 0, 0, 0.925);;
-    position:absolute;
-    width:100%;    
+    
+    width:1000px;
+    
     padding-bottom: 35px;
     padding-top: 5px;
+    margin:auto;
+    padding:50px;
+    
 }
 
 div > h1,h2.titulo{
@@ -103,6 +108,10 @@ div#historia{
     padding-top:5px;
     color:white;
     text-align: justify;
+    width:1000px;
+    margin:auto;
+    padding:50px;
+    margin-top: 50px;
 }
 
 div#historia > h1,h2{
@@ -123,7 +132,10 @@ div#historia > p{
 div#skills{
     text-align: center;
     background-color: rgba(0, 0, 0, 0.925);
-    margin-top: 25px;
+    width:1000px;
+    margin:auto;
+    padding:50px;
+    margin-top: 50px;
 }
 
 div#skills > img.logo{
@@ -134,11 +146,12 @@ div#skills > img.logo{
 }
 
 div#portfolio{
-    background-color: rgba(153, 11, 11, 0.432);
-    width:100%;
-    margin-top:30px;
-    text-align: center;
-    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.925);
+    margin-top:50px;
+    width:1000px;
+    margin:auto;
+    padding:50px;
+    margin-top:50px;
     
     
 }
@@ -159,5 +172,34 @@ div#portfolio > p{
 div#portfolio > img.projetos{
     
     height: 400px;
-    width: 900px;
+    width: 1000px;
+}
+
+div#portfolio > a{
+    
+}
+
+div#portfolio > p > a{
+    margin: 30px;
+    margin-top: 10px;
+    background-color: gray;
+    padding:10px;
+    border-radius: 10px;
+    color: aqua;
+    text-decoration: none;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+footer a{
+    text-decoration: none;
+    color: aqua;
 }
