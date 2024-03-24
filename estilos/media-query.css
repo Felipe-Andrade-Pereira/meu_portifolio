@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+@media screen and (min-width:300px) and (max-width:500px){
+   header nav > a#certificacoes{
+    margin-top: 75px;
+    margin:auto;
+   }
+
+   div > img#eu{
+    height:100px;
+    width:100px;
+    top:25px;
+   }
+
+   div#historia{
+    margin-top: 125px;
+   }
+}

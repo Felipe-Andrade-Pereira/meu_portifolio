@@ -21,13 +21,15 @@
 
 body{
     background-color: white;
+    
+    
 }
 
 header{
     
     background-color: black;
     color: white;
-    padding:20px;
+    padding:35px;
     margin-bottom: 20px;
 }
 
@@ -38,7 +40,9 @@ header a{
     text-decoration: none;
     color:white;
     margin-right: 10px;
+    margin-left: 0px;
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
 header a:hover{
@@ -63,6 +67,7 @@ div > p.texto{
     font-family: var(--letra_de_mao);
     font-size: 25px;
     color:white;
+   
     
 }
 
@@ -106,8 +111,12 @@ div#historia > h1,h2{
 
 div#historia > p{
     margin-top:25px;
+    margin-left:10px ;
+    margin-right:10px ;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
+    line-height: 2em;
+    text-indent: 30px;
     
 }
 
@@ -125,7 +134,8 @@ div#skills > img.logo{
 }
 
 div#portfolio{
-    background-color: rgba(0, 0, 0, 0.432);
+    background-color: rgba(153, 11, 11, 0.432);
+    width:100%;
     margin-top:30px;
     text-align: center;
     padding: 25px;
@@ -140,6 +150,9 @@ div#portfolio > p{
     text-align: justify;
     margin-left: 175px;
     margin-right: 175px;
+    line-height: 2em;
+    text-indent: 30px;
+    
     
 }
 
