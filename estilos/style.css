@@ -30,8 +30,8 @@ header{
     padding:50px;
     width:1000px;
     margin:auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     position:relative;
 
 }
@@ -49,14 +49,14 @@ header a{
 }
 
 header a:hover{
-    background-color: cadetblue;
+    background-color: rgb(1, 82, 1);
 }
 
 header > img#computador{
-    width:80px;
-    height:80px;
+    width:135px;
+    height:110px;
     position:absolute;
-    top:20%;
+    top:1%;
     left:75%;
     border-radius:50%;
     
@@ -119,7 +119,7 @@ div > img#eu{
 
 div#historia{
     background-color: rgba(0, 0, 0, 0.925);
-    margin-top: 30px;
+    margin-top: 25px;
     padding-bottom: 35px;    
     padding-top:5px;
     color:white;
@@ -151,7 +151,7 @@ div#skills{
     width:1000px;
     margin:auto;
     padding:50px;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 div#skills > img.logo{
@@ -163,7 +163,7 @@ div#skills > img.logo{
 
 div#portfolio{
     background-color: rgba(0, 0, 0, 0.925);
-    margin-top:50px;
+    margin-top:25px;
     width:1000px;
     margin:auto;
     padding:50px;
@@ -198,11 +198,43 @@ div#portfolio > a{
 div#portfolio > p > a{
     margin: 30px;
     margin-top: 10px;
-    background-color: gray;
+    background-color: rgb(1, 82, 1);
     padding:10px;
     border-radius: 10px;
-    color: aqua;
+    color: white;
     text-decoration: none;
+}
+
+div#contato > div{
+    position: relative;
+    width:1100px;
+    background-color: rgba(0, 0, 0, 0.925);
+    margin-top: 25px;
+    margin:auto;
+    color:white;
+    
+}
+
+div#contato > div > p{
+    display: block;
+    position:absolute;
+    top: 35%;
+    left: 10%;
+    font-size: 30px;
+    color: white;
+}
+
+
+div#contato > div > img{
+    width:40px;
+    height:40px;
+    padding:50px;
+    
+    
+}
+
+div#contato > h1{
+    text-align: center;
 }
 
 footer{
