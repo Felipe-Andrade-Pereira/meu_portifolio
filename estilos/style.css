@@ -31,7 +31,7 @@ header{
     width:1000px;
     margin:auto;
     margin-top: 25px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     position:relative;
 
 }
@@ -45,6 +45,7 @@ header a{
     margin-right: 10px;
     margin-left: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    
 
 }
 
@@ -119,7 +120,6 @@ div > img#eu{
 
 div#historia{
     background-color: rgba(0, 0, 0, 0.925);
-    margin-top: 25px;
     padding-bottom: 35px;    
     padding-top:5px;
     color:white;
@@ -127,7 +127,7 @@ div#historia{
     width:1000px;
     margin:auto;
     padding:50px;
-    margin-top: 50px;
+    margin-top: 15px;
 }
 
 div#historia > h1,h2{
@@ -151,7 +151,7 @@ div#skills{
     width:1000px;
     margin:auto;
     padding:50px;
-    margin-top: 25px;
+    margin-top: 15px;
 }
 
 div#skills > img.logo{
@@ -163,11 +163,10 @@ div#skills > img.logo{
 
 div#portfolio{
     background-color: rgba(0, 0, 0, 0.925);
-    margin-top:25px;
     width:1000px;
     margin:auto;
     padding:50px;
-    margin-top:50px;
+    margin-top:15px;
     
     
 }
@@ -200,6 +199,20 @@ div#portfolio > p > a{
     border-radius: 10px;
     color: white;
     text-decoration: none;
+}
+
+p#repositorio > a{
+    display:block;
+    text-align: right;
+    text-decoration: none;
+    margin-top: 15px;
+    color:white;
+    background-color: green;
+    width:150px;
+    position: absolute;
+    left:80%;
+    padding: 17px;
+    border-radius: 5px;
 }
 
 div#contato > div{
@@ -239,7 +252,14 @@ div#contato > div > img{
 
 div#contato > h1{
     text-align: center;
-    margin-top: 25px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+div#contato > div > p#loc{
+    position:absolute;
+    top:-120px;
+    left:65%;
 }
 
 footer{
