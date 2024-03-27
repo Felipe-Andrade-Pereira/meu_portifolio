@@ -191,9 +191,6 @@ div#portfolio > img.projetos{
     width: 1000px;
 }
 
-div#portfolio > a{
-    
-}
 
 div#portfolio > p > a{
     margin: 30px;
@@ -215,6 +212,14 @@ div#contato > div{
     
 }
 
+div#contato > div > iframe#local{
+    display:block;
+    position:absolute;
+    left:60%;
+    bottom:17px;
+    
+}
+
 div#contato > div > p{
     display: block;
     position:absolute;
@@ -230,11 +235,11 @@ div#contato > div > img{
     height:40px;
     padding:50px;
     
-    
 }
 
 div#contato > h1{
     text-align: center;
+    margin-top: 25px;
 }
 
 footer{
