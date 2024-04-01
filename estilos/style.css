@@ -3,7 +3,8 @@
 *{
     margin:0px;
     padding:0px;
-  
+    width:wv;
+    height:hv;
     
 }
 
@@ -184,7 +185,7 @@ div#portfolio > p{
     
 }
 
-div#portfolio > img.projetos{
+div#portfolio  > img.projetos{
     
     height: 400px;
     width: 1000px;
