@@ -11,12 +11,22 @@
         width:100%;
         padding-right: 0px;
         padding-left: 15px;
+       
+    }
+
+    header a{
+        font-size: 0.7em;
+        margin: auto;
+        background-color: blue;
         
     }
 
-    header > nav{
-        padding:0px;
+    header nav > a#sobre{
+        display: none;
+        
+
     }
+
    
     div#historia, div#skills, div#projetos, div#contato, div#contato > div.contato, div#principal>div#inicio, div#projetos > div.portfolio, div#contato > div > div#loc{
         width:100%;
@@ -30,17 +40,31 @@
         padding-left: 0px;
     }
 
+    div#principal > div#inicio > h1,h2{
+        font-size: 1.5em;
+    }
+
     div#principal > div#inicio > img{
-        left:69%;
-        top:50%;
-        height: 150px;
-        width: 150px;
+        left:62%;
+        top:20%;
+        height: 100px;
+        width: 100px;
         
+    }
+
+    div#historia > h1,h2{
+        font-size: 1.1em;
+    }
+
+    div#historia > p{
+        font-size: 0.8em;
+        padding-right: 10px;
+        margin-left: 2px;
     }
 
     div#projetos > div.portfolio  > img.projetos{
         height:400px;
-        width:400px;
+        width:300px;
         
         
     }
@@ -57,7 +81,16 @@
         margin-right: 0px;
         margin: auto;
         padding-left: 0px;
+        font-size: 0.8em;
     }
+
+    div#projetos > div.portfolio  > p > a{
+        background-color: rgba(0, 0, 255, 0.568);
+        font-size: 1em;
+        margin:auto;
+
+    }
+
     div#contato > div > iframe#local{
         display:none;
     }
@@ -67,6 +100,11 @@
     div#contato > div{
         width:100%;
         padding:0px;
+    }
+
+    div#contato > div#local{
+        padding-right: 15px;
+        width: 100%;
     }
     
 
@@ -84,9 +122,11 @@
     div#contato > div.contato > p{
         left:1%;
         top:75%;
+        font-size: 0.8em;
     }
     div#contato > div#local > p{
         left:1%;
         top:60%;
+        font-size: 0.8em;
     }
 }
