@@ -1,34 +1,47 @@
 @charset "UTF-8";
 
-@media screen and (min-width:320px) and (max-width:500px){
+@media screen and (min-width:320px) and (max-width:800px){
 
     *{
         margin-top: 1px;
+        width:100%;
     }
 
     header{
         width:100%;
-        padding:40px;
+        padding-right: 0px;
+        padding-left: 15px;
         
     }
+
+    header > nav{
+        padding:0px;
+    }
    
-    div#historia, div#skills, div#projetos, div#contato, div#contato > div.contato, div#principal>div#inicio, div#portfolio{
+    div#historia, div#skills, div#projetos, div#contato, div#contato > div.contato, div#principal>div#inicio, div#projetos > div.portfolio, div#contato > div > div#loc{
         width:100%;
-        padding: 0px;
+        padding-right: 15px;
+        padding-left: 0px;
     
     
     }
 
+    div#projetos{
+        padding-left: 0px;
+    }
+
     div#principal > div#inicio > img{
-        left:65%;
+        left:69%;
+        top:50%;
         height: 150px;
         width: 150px;
         
     }
 
-    div#portfolio > img.projetos{
-        height:500px;
-        width:500px;
+    div#projetos > div.portfolio  > img.projetos{
+        height:400px;
+        width:400px;
+        
         
     }
 
@@ -38,11 +51,12 @@
         margin-right: 0px;
     }
 
-    div#portfolio > p{
+    div#projetos > div.portfolio  > p{
         width:100%;
         margin-left:0px ;
         margin-right: 0px;
         margin: auto;
+        padding-left: 0px;
     }
     div#contato > div > iframe#local{
         display:none;
