@@ -174,7 +174,7 @@ div#projetos > div.portfolio > p{
     
 }
 
-div#projetos > div.portfolio  > img.projetos{
+div#projetos > div.portfolio  > picture > img.projetos{
     
     height: 400px;
     width: 1000px;

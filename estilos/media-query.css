@@ -16,7 +16,7 @@
 
     header a{
         font-size: 0.7em;
-        margin: auto;
+        text-align: center;
         background-color: blue;
         
     }
@@ -58,13 +58,15 @@
 
     div#historia > p{
         font-size: 0.8em;
-        padding-right: 10px;
         margin-left: 2px;
     }
 
-    div#projetos > div.portfolio  > img.projetos{
+    div#projetos > div.portfolio > picture  > img.projetos{
+        margin:auto;
         height:400px;
-        width:300px;
+        width:100%;
+        
+        
         
         
     }
