@@ -31,7 +31,7 @@ header{
     padding:50px;
     width:1000px;
     margin:auto;
-    margin-top: 25px;
+    margin-top: 15px;
     margin-bottom: 15px;
     position:relative;
 
@@ -185,26 +185,21 @@ div#projetos > div.portfolio  > picture > img.projetos{
 div#projetos > div.portfolio  > p > a{
     margin: 30px;
     margin-top: 10px;
-    background-color: rgb(1, 16, 82);
+    background-color: rgb(4, 4, 159);
     padding:10px;
     border-radius: 10px;
     color: white;
     text-decoration: none;
 }
 
-p#repositorio > a{
-    display:block;
-    text-align: right;
-    text-decoration: none;
-    margin-top: 15px;
-    color:white;
-    background-color: green;
-    width:150px;
-    position: absolute;
-    left:80%;
-    padding: 17px;
-    border-radius: 5px;
+div#projetos > div.portfolio  > p > a.repositorio{
+    background-color: rgb(89, 89, 253);
 }
+
+div#projetos > div.portfolio > p > a:hover{
+    background-color: rgb(12, 1, 71)
+}
+
 
 div#contato > div{
     position: relative;
